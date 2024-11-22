@@ -11,7 +11,7 @@
     
     <div class="absolute top-4 left-4">
         <button class="text-white flex items-center">
-            <img src="https://ucarecdn.com/4c40b536-90e4-4239-bf9d-da43bf5b1d41/icon_ft_bg__1_removebgpreview.png" alt="EN" class="w-8 h-8 mr-2">
+            <img src="https://ucarecdn.com/fdc656a3-fce4-442b-8fe2-560beb9c6246/1732279541536.png" alt="EN" class="w-8 h-8 mr-2">
             Platform as a Service
         </button>
     </div>
