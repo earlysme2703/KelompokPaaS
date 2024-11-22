@@ -73,9 +73,6 @@ mounts:
   "storage/logs":
       source: local
       source_path: "logs"
-       "resources":
-        source: local
-        source_path: "resources"
   "bootstrap/cache":
       source: local
       source_path: "cache"
