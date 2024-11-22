@@ -21,7 +21,7 @@
         {{-- <div class="mb-8">
             <h1 class="text-white text-3xl font-bold">Platform as a Service</h1>
         </div> --}}
-
+        <img src="https://example.com/path/to/your/image.jpg" alt="Descriptive Alt Text" class="mb-4 w-32 h-32">
         <!-- Login form -->
         <div class="w-full max-w-md px-6">
             <div class="text-center mb-8">
