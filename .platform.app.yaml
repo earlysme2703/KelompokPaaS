@@ -79,6 +79,9 @@ mounts:
   "/.config":
       source: local
       source_path: "config"
+  "/.resources":
+      source: local
+      source_path: "resources"
 
 # The configuration of app when it is exposed to the web.
 web:
