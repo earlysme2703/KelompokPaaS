@@ -79,7 +79,7 @@ mounts:
   "/.config":
       source: local
       source_path: "config"
-  "/.resources":
+  "/resources":
       source: local
       source_path: "resources"
 
