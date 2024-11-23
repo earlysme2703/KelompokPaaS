@@ -27,7 +27,15 @@ Route::get('/login', function () {
 })->name('login');
 
 Route::post('/login', function () {
-    return redirect('/#');
+    return redirect('/dashboard');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
+
+Route::post('/dashboard', function () {
+    return redirect('/dashboard');
 });
 
 Route::get('/register', function () {
