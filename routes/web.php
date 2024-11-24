@@ -15,7 +15,8 @@ use App\Http\Controllers\AuthController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('/');
+
 
 // routes/web.php
 // Route::get('/login', [AuthController::class, 'login'])->name('login');
