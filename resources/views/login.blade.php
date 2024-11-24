@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>Platform As A Service</title>
-    <!-- Tailwind CSS dan Flowbite CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 </head>
-<body class="bg-[#002633] min-h-screen">
-    
+<body class="min-h-screen bg-[#002633] bg-[url('https://ucarecdn.com/8d7efd17-34ea-4322-92c8-ff28c58fc2e1/1732449892814picsay1.png')] bg-repeat bg-[length:360px_640px] bg-[position:center]">
+    <div class="absolute inset-0 bg-[#002633]/90"></div>
+
+    <div class="relative">
     <div class="absolute top-4 left-4">
         <button class="text-white flex items-center">
             <img src="https://ucarecdn.com/fdc656a3-fce4-442b-8fe2-560beb9c6246/1732279541536.png" alt="EN" class="w-8 h-8 mr-2">
@@ -70,8 +71,7 @@
             <p>Designed by asep bensin</p>
         </div> --}}
     </div>
-
-    <!-- Flowbite JavaScript -->
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
 </html>
