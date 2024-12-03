@@ -2,7 +2,6 @@
 <head>
     <meta charset="utf-8">
     <title>Platform As A Service</title>
-    <!-- Tailwind CSS dan Flowbite CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 </head>
@@ -20,10 +19,10 @@
                         <a href="#" class="block py-2 px-3 rounded {{ request()->routeIs('earlysme') ? 'text-red-700' : 'text-gray-900' }} md:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Dashboard</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 rounded {{ request()->routeIs('earlysme2') ? 'text-blue-700' : 'text-gray-900' }} md:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Tentang Kami</a>
+                        <a href="{{ route('about.index') }}" class="block py-2 px-3 rounded md:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Tentang Kami</a>
                     </li>
                     <li>
-                        <a href="{{ route('/') }}" class="block py-2 px-3 rounded {{ request()->routeIs('posts.index') ? 'text-blue-800' : 'text-gray-900' }} md:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Layanan</a>
+                        <a href="{{ route('/') }}" class="block py-2 px-3 rounded md:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Layanan</a>
                     </li>
                     <li>
                         <a href="{{ route('login') }}" class="block py-2 px-3 rounded {{ request()->routeIs('login') ? 'text-blue-600' : 'text-gray-900' }}  md:hover:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Logout</a>
