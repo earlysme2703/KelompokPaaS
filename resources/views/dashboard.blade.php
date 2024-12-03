@@ -22,7 +22,7 @@
                         <a href="{{ route('about.index') }}" class="block py-2 px-3 rounded md:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Tentang Kami</a>
                     </li>
                     <li>
-                        <a href="{{ route('/') }}" class="block py-2 px-3 rounded md:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Layanan</a>
+                        <a href="{{ route('/') }}" class="block py-2 px-3 rounded {{ request()->routeIs('posts.index') ? 'text-blue-800' : 'text-gray-900' }} md:bg-transparent md:p-0 dark:text-white md:dark:hover:text-blue-500">Framework</a>
                     </li>
                     <li>
                         <a href="{{ route('login') }}" class="block py-2 px-3 rounded {{ request()->routeIs('login') ? 'text-blue-600' : 'text-gray-900' }}  md:hover:bg-transparent md:border-0 md:hover:text-yellow-200 md:p-0 text-white">Logout</a>

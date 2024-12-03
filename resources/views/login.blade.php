@@ -3,7 +3,6 @@
 <head>
     <meta charset="utf-8">
     <title>Platform As A Service</title>
-    <!-- Tailwind CSS dan Flowbite CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
 </head>
@@ -72,8 +71,7 @@
             <p>Designed by asep bensin</p>
         </div> --}}
     </div>
-
-    <!-- Flowbite JavaScript -->
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
 </html>

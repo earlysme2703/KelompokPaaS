@@ -78,8 +78,11 @@
         </div>
     </div>
     </div>
+<<<<<<< HEAD
 
     <!-- Flowbite JavaScript -->
+=======
+>>>>>>> e131f0daabdb0b5452601c8bf81468c11147de32
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 </body>
 </html>
