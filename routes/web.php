@@ -23,7 +23,9 @@ Route::get('/', function () {
 // routes/web.php
 // Route::get('/login', [AuthController::class, 'login'])->name('login');
 // Route::get('/register', [AuthController::class, 'register'])->name('register');
-
+Route::get('/aboutus', function () {
+    return view('aboutus');
+})->name('/aboutus');
 
 Route::get('/login', function () {
     return view('login');
